@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'jf';
+	src: url('../fonts/jf-openhuninn-1.1.woff') format('woff'),
+		url('../fonts/jf-openhuninn-1.1.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'gen';
+	src: url('../fonts/GenEi-P-Heavy_ver8.woff') format('woff'),
+		url('../fonts/GenEi-P-Heavy_ver8.ttf') format('ttf');
+}
+
+
+.bg_johnBlue{
+    background-color: #172f51;
+}
+
+.bg_butter{
+    background-color:#f3f1e2 ;
+}
+
+.bg_29black{
+    background-color:#292929 ;
+}
+
+.content_font{
+    font-family: jf;
+}
+
+.slogan_font{
+    font-family: gen;
+}
+
+.butter_hoverColor{
+    color: #f3f1e2;
+}
+
+.butter_hoverColor:hover{
+    color:#f3f1e258;
+}
+
+.johnBlue_hoverColor{
+    color: #172f51;
+}
+
+.johnBlue_hoverColor:hover{
+    color:#7991b2;
+}
+
+.footer_main{
+    margin: 0 auto;
+    padding: 30px;
+    width: 1200px;
+    max-width: 100%;
+}
+
+.footer_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: -30px;
+}    
+
+.footer_link {
+    position: relative;
+    margin-right: 10px;
+    padding: 10px;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}    
+
+.footer_infos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+/* //............ */
